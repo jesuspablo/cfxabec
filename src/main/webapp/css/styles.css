@@ -1,0 +1,336 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-abr-2014, 13:36:56
+    Author     : raznara
+*/
+
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 12px;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 100%;
+    }
+}
+
+.container .jumbotron {
+    border-radius: 0px;
+}
+
+.jumbotron {
+
+    background-color: #f0a30a ;
+}
+
+.panel-heading {
+    border-radius: 0px;
+}
+
+table{
+
+}
+th{
+    min-width: 30px;
+    color: whitesmoke;
+    background-color: #9a1616;
+}
+.datepicker th{
+    background-color: white;
+    color: black;
+}
+#indexContenido .form-control-feedback {
+    top: 0px;
+    right: -15px;
+}
+
+.panel-heading {
+    padding: 1px 10px;
+    
+}
+
+
+
+.list-group-item {
+    padding: 2px 15px;
+}
+
+
+
+.panel-body {
+    padding: 5px 15px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+   margin-top: 30px;
+   margin-bottom: 10px;
+   text-align: center;
+   background-color: #60a917;
+}
+
+.pagination{
+    margin: 5px 0;
+}
+.form-control{
+    border-radius: 0;
+
+}
+.btn{
+    border-radius: 0;
+}
+
+.menu li a {
+    color:black;    
+    text-decoration: none;
+}
+
+.contenedor li a {
+       
+    text-decoration: none;
+}
+
+/*.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+padding-right: 10px;
+padding-left: 10px;
+}*/
+
+ 
+
+
+.panel-default>.panel-heading {
+    background-color:#60a917;
+    color:whitesmoke;
+    font-size: 15px;
+}
+
+.navbar-inverse {
+    background-color: #647687; 
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: yellow;
+    font-size: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+    color:whitesmoke;
+}
+.navbar-inverse .navbar-brand:hover {
+    color:yellow;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #fff;
+    background-color: blue;
+}
+
+/*STILOS INICIO*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #DDD; 
+    font-size: 16px;    
+    color: #000;
+    font-family: "Oxygen",sans-serif;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+
+
+.izquierda {
+    width: 20%;
+    height: 881px;
+    float: left;    
+    background-color: #001f3f;
+}
+    
+     .menu {
+        color: white;
+        background-color: #001f3f;
+        margin-left: 33px;
+        margin-top: 173px;     
+     }  
+
+     li>a {
+        color: white;
+     }
+
+     .menu>ul>li {
+           width: 2%;
+           height: 10px;   
+        margin-left: 20px;
+        margin-top: 9px;
+         border: 10px solid #001f3f;
+        list-style: none;
+     }
+
+     .menu a:hover {
+        
+        color: silver;
+     }
+
+
+     
+
+
+     .menu li a {
+        text-decoration: none;
+     }
+
+    
+
+     .seccion1, .seccion2 {
+        display: none;
+     }
+
+    .seccion2 li {
+
+         margin-left: 52px;
+        margin-top: 13px;
+         list-style: none;
+
+    }
+
+    .seccion1 li {
+        margin-left: 52px;
+        margin-top: 13px;
+        list-style: none;
+
+
+    }
+
+/*Slider*/
+
+
+
+.slides {
+    width: 100%;
+
+   
+}
+
+.slides img {
+    width: 100%;
+}
+
+.slidesjs-pagination {
+    background: #424242;
+    list-style: none;
+    overflow: hidden;
+
+}
+.slidesjs-pagination li {
+    float: left;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover {
+     background: #000;
+
+}
+
+.slides .active {
+    background: #000;
+}
+
+.slidesjs-navigation {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    float: right;
+}
+
+
+
+
+
+.centro {
+    width: 60%;    
+    height: 881px;
+
+    margin: 20px auto;
+    float: left;
+    background-color: #DDD;
+    
+}
+
+    .telefono {
+        width: 100%;
+       display: none;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .telefono p {
+        padding-top: 10px;
+       
+    }
+
+    .mapa {
+        width: 100%;
+        display: none;
+        padding-top: 20px;
+        text-align: center;
+    }
+     
+
+        .mapa img {
+            width: 80%;
+            padding-top: 20px;
+        }
+
+    .ubicacion {
+        width: 100%;
+        display: none;
+        padding-top: 50px;
+        text-align: center;
+    }
+            .ubicacion img {
+                width: 80%;
+                padding-top: 20px;
+             }
+
+.derecha {
+    width: 20%;
+    height: 881px;
+    float: left;
+    background-color:  #001f3f;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;    
+    clear: both;
+    border: 1px solid gray;
+    background-color: gray;
+}
