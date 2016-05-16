@@ -20,92 +20,78 @@
 
 
 <!DOCTYPE html>
-<html>	
+<html >
     <head>
-        <title>User Login Flat Responsive widget Template :: w3layouts</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-        <meta name="keywords" content="User Login Form Responsive Templates, Iphone Widget Template, Smartphone login forms,Login form, Widget Template, Responsive Templates, a Ipad 404 Templates, Flat Responsive Templates" />
-        <link rel="stylesheet" href="css/styles2.css">
-         <!--<link rel="stylesheet" href="css/styles4.css">
-        <!--web-fonts-->
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <!--/web-fonts-->
+        <meta charset="UTF-8">
+        <title>Login Form</title>
+
+
+        <link rel="stylesheet" href="css/login_css/reset.css">
+
+        <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
+        <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/login_css/style.css">
+
+
+
+
     </head>
+
     <body>
-        <!--User-Login-->
 
-        <div class="continer">
 
-            <div class="izquierda">
-
+        <div class="container">
+            <div class="info">
+                <h1>Registrate</h1><span>ir <a href="jsp">Al inicio</a></span>
             </div>
-
-
-            <div class="centro">
-                <h1>User Login</h1>
-                <div class="avtar">
-                    <img src="css/images/avtar.png" />
-                </div>
-
-                <div class="login-form">
-                    <p>Iniciar Sesion</p>
-                    <form class="form-signin" id="loginForm" action="jsp" role="form" method="post"> 
-                        <input type="hidden" name="ob" value="usuario" />
-                        <input type="hidden" name="op" value="login02" /> 
-                        <div class="form-text">
-                            <%
-                                if (EstadoHelper.getTipo_estado() == EstadoHelper.getTipo_estado().Debug) {
-                            %>
-                            <input  class="text" class="form-control"  id="inputLogin" type="text" placeholder="nombre de usuario" required="" autofocus="" name="login"  />
-                            <%
-                            } else {
-                            %>
-                            <input class="form-control"  id="inputLogin" type="text" placeholder="nombre de usuario" required="" autofocus="" name="login" />
-                            <%
-                                }
-                            %>
-
-                            <%
-                                if (EstadoHelper.getTipo_estado() == EstadoHelper.getTipo_estado().Debug) {
-                            %>
-                            <input type="password" type="password" id="inputPassword" placeholder="contraseña"  required="" name="password" />
-                            <%
-                            } else {
-                            %>
-                            <input class="form-control" type="password" id="inputPassword" placeholder="contraseña"  required="" name="password" />                                                               
-                            <%
-                                }
-                            %> 
-                         <button class="boton1" type="submit"  style="margin-top: 15px">Acceder</button>   
-                        <button class="boton2" type="reset" style="margin-top: 5px">Reset</button>
-                   
-                        </div>
-                        
-                    </form>
-                        <!--/User-Login-->
-                <!--start-copyright-->
-                <div class="copy-right">
-                    <p>Acceder al <a href="http://w3layouts.com">Sistema</a></p> 
-                </div>
-                </div>
-                
-
-
-
-
-            </div> 
-
-            <div class="derecha">
-
-
-
-
-            </div>	
-
-
-
         </div>
-        
+        <div class="form">
+            <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"/></div>
+           
+            <form class="login-form" action="jsp" role="form" method="post">
+                
+                <input type="hidden" name="ob" value="usuario" />
+                <input type="hidden" name="op" value="login02" /> 
+                
+                
+                 <%
+                   if (EstadoHelper.getTipo_estado() == EstadoHelper.getTipo_estado().Debug) {
+                   %>
+                <input type="text" placeholder="username" required="" autofocus="" name="login"/>
+                <%
+                   } else {
+                 %>
+                 <input type="text" placeholder="username" required="" autofocus="" name="login"/>
+                 <%
+                    }
+                  %>
+                
+                <%
+                   if (EstadoHelper.getTipo_estado() == EstadoHelper.getTipo_estado().Debug) {
+                 %>
+                <input type="password" placeholder="password" required="" name="password"/>
+                <%
+                   } else {
+                 %>
+                <input type="password" placeholder="password" required="" name="password"/>
+                <%
+                   }
+                 %>                
+                
+                <button type="submit">login</button>
+                
+                <p class="message">Sign up</p>
+            </form>
+        </div>
+       
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="./js/index.js"></script>
+
+
+
+
     </body>
 </html>
