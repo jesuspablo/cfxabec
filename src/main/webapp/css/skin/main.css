@@ -11,6 +11,7 @@ and open the template in the editor.
 
 
 
+
 .margen-superior {
     margin-top: 80px !important;
 }
@@ -18,24 +19,10 @@ and open the template in the editor.
     margin-top: 15% !important;
 }
 
-/* Navbar */
-#app {
-    position: absolute;
-    top: 2%;
-    left: 47%;
-}
 
 
-/* Cabecera de los paneles */
-.navbar-default {
-    background: #001f3f;
-    padding-top: 8px;   
-    
-}
 
-img {
-width: 150px;
-}
+
 
 #result h1 {
     background: #001f3f;
@@ -53,14 +40,7 @@ width: 150px;
     color: white;
 }
 
-#nav li {
-    font-size: 18px;  
-    padding-top: 9px;
-    margin-left: 11px;
-    display: inline-block;
-    color: white;
-    font-family: "Oxygen",sans-serif;
-}
+
 
 .glyphicon-log-out {
     margin-left: 556px;
@@ -132,11 +112,7 @@ a {
     color: grey;
 }
 
-footer {    
-    background-color: #DDD !important;
-    height: 5em;
-    clear: both;
-}
+
 .datepicker th{
     background-color: white;
     color: black;

@@ -32,13 +32,13 @@
 
 <!DOCTYPE html>
 <html lang="es">
-
     <head>  
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>CF Xabec</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+         <link rel="stylesheet" href="css/bootstrap.min.css"> 
         
         
         <!--//principla css-->
@@ -54,9 +54,9 @@
         <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
         
        
-        <link rel="stylesheet" href="css/bootstrap2.min.css"> 
+       
          <link rel="stylesheet" href="css/jquery-ui.css"> 
-       <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/bootstrapValidator.min.css">
         <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
     
@@ -130,6 +130,8 @@
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                    <%if (user != null) {%>
                         <jsp:include page="jsp/menuSuperiorUsuario.jsp" /> 
+                        <% } else {%>        
+                        <jsp:include page="jsp/menuSuperiorUsuario2.jsp" />
                         <% }%>
                     
                 </div><!--//navabr-collapse-->
@@ -172,8 +174,6 @@
                 <div class="col-md-12" id="contenidoParseado"></div>   
             </div>            
         </div>  
-
-
         <% }%>
         
 

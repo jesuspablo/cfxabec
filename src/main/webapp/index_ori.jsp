@@ -39,7 +39,8 @@
         <title>CF Xabec</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-         <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
+         
+        <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
         <link rel="stylesheet" href="css/bootstrap11.min.css">
 
        <link rel="stylesheet" href="css/jquery-ui.css"> 

@@ -19,52 +19,11 @@
 <%@page import="net.daw.helper.AppInformationHelper"%>
 <%@page import="net.daw.helper.EstadoHelper"%>
 
+
+   
 <!-- ******NAV****** -->
-<div class="wrapper">
-        <nav class="main-nav" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->            
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item"><a href="index.html">Portada</a></li>
-                        <li class="nav-item"><a href="events.html">Noticias</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Centro <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="courses.html">Organización</a></li>
-                                <li><a href="course-single.html">Proyectos</a></li>
-                                <li><a href="course-single-2.html">Programación de Aulas</a></li>  
-                                <li><a href="course-single-2.html">Horario</a></li>
-                                <li><a href="course-single-2.html">Comedor</a></li>                                        
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Padres <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="news.html">A.m.p.a</a></li>
-                                <li><a href="news-single.html">Ítaca-familias</a></li>                                             
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Alumnos <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about.html">Becas</a></li>
-                                <li><a href="team.html">Antiguos alumnos</a></li>                                                                                 
-                            </ul>
-                        </li><!--//dropdown-->
-                        <li class="nav-item"><a href="contact.html">Profesores</a></li>
-                        <li class="nav-item"><a href="contact.html">Contact</a></li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </div><!--//container-->
-        </nav><!--//main-nav-->
+
+<div class="wrapper" >        
 
         <!-- ******CONTENT****** --> 
         <div class="content container">
@@ -409,3 +368,5 @@
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
+    </div>
+
