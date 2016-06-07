@@ -29,7 +29,7 @@ function inicializacion() {
         $(document).off('focusin.modal');
     });
     $.when(ajax().ajaxCallSync('images/ajax-loading.gif', 'GET', '')).done(function() {
-        util().setSpinner('<img src="images/ajax-loading.gif" alt="cargando..." />');
+       // util().setSpinner('<img src="images/ajax-loading.gif" alt="cargando..." />');
     })
     $.fn.serializeObject = function()
     {

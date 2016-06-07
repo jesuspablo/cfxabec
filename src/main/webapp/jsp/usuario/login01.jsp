@@ -33,15 +33,8 @@
         <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 
         <link rel="stylesheet" href="css/login_css/style.css">
-
-
-
-
     </head>
-
     <body>
-
-
         <div class="container">
             <div class="info">
                 <h1>Registrate</h1><span>ir <a href="jsp">Al inicio</a></span>
@@ -53,8 +46,7 @@
             <form class="login-form" action="jsp" role="form" method="post">
                 
                 <input type="hidden" name="ob" value="usuario" />
-                <input type="hidden" name="op" value="login02" /> 
-                
+                <input type="hidden" name="op" value="login02" />                 
                 
                  <%
                    if (EstadoHelper.getTipo_estado() == EstadoHelper.getTipo_estado().Debug) {
@@ -80,9 +72,10 @@
                    }
                  %>                
                 
-                <button type="submit">login</button>
+                <button type="submit" style="margin-top: 15px">Login</button>
+                 <button type="reset" style="margin-top: 5px">Reset</button>
                 
-                <p class="message">Sign up</p>
+               
             </form>
         </div>
        

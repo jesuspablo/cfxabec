@@ -32,14 +32,14 @@
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="nombre">Nombre:</label>
         <div class="col-sm-6">
-            <input type="text" id="nombre" class="form-control"  name="nombre" size="15" placeholder="Título del alumno" />
+            <input type="text" id="nombre" class="form-control"  name="nombre" size="15" placeholder="Nombre del alumno" />
         </div>
     </div>
 
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="apellido">Primer apellido:</label>
         <div class="col-sm-6">
-            <input type="text" id="apellido" class="form-control"  name="apellido" size="15" placeholder="Título del alumno" />
+            <input type="text" id="apellido" class="form-control"  name="apellido" size="15" placeholder="Primer Apellido" />
         </div>
     </div>
 
@@ -48,7 +48,7 @@
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="Email">Email:</label>
         <div class="col-sm-6">
-            <input type="text" id="Email" class="form-control"  name="Email" size="15" placeholder="Título del alumno" />
+            <input type="text" id="Email" class="form-control"  name="Email" size="15" placeholder="Email" />
         </div>
     </div>
 

@@ -23,7 +23,7 @@ var util = function () {
             spinner = htmlSpinner;
         },
         getSpinner: function () {
-            return '<img src="images/ajax-loading.gif" alt="cargando..." />';
+            return ""; //<img src="images/ajax-loading.gif" alt="cargando..." />
         },
 //        getSpinner2: function() {
 //            return '<img src="images/ajax-loading.gif" alt="cargando..." />';

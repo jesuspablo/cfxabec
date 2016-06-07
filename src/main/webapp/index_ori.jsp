@@ -33,29 +33,16 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>  
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>CF Xabec</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        
-        
-        <!--//principla css-->
-        <link rel="shortcut icon" href="favicon.ico">  
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>   
-        <!-- Global CSS -->
-        <link rel="stylesheet" href="css/css_principal/bootstrap.min.css">   
-        <!-- Plugins CSS -->    
-        <link rel="stylesheet" href="css/css_principal/font-awesome.css">
-        <link rel="stylesheet" href="css/css_principal/flexslider.css">
-        <!-- <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css"> -->
-        <!-- Theme CSS -->      
-        <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
-        
-       
-        <link rel="stylesheet" href="css/bootstrap2.min.css"> 
-         <link rel="stylesheet" href="css/jquery-ui.css"> 
+         <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
+        <link rel="stylesheet" href="css/bootstrap11.min.css">
+
+       <link rel="stylesheet" href="css/jquery-ui.css"> 
        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/bootstrapValidator.min.css">
         <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
@@ -64,9 +51,8 @@
 
 
         <% if (user != null) {%>
-        
         <link rel="stylesheet" href="css/skin/<%=user.getSkin()%>.css">
-        <% } else {%>        
+        <% } else {%>
         <link rel="stylesheet" href="css/skin/main.css">
         <% }%>
 
@@ -75,67 +61,42 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        
-       
-    
     </head>
-    <body class="home-page">
-    <div class="wrapper">
-       <header class="header">  
-            <div class="top-bar">
-                <div class="container">              
-                    <ul class="social-icons col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                        <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" ><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" ><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" ><i class="fa fa-google-plus"></i></a></li>         
-                        <li class="row-end"><a href="#" ><i class="fa fa-rss"></i></a></li>             
-                    </ul><!--//social-icons-->
-                    <form class="pull-right search-form" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search the site...">
-                        </div>
-                        <button type="submit" class="btn btn-theme">Go</button>
-                    </form>         
-                </div>      
-            </div><!--//to-bar-->
-            <div class="header-main container">
-                <h1 class="logo col-md-4 col-sm-4">
-                    <a href="jsp"><img id="logo" src="./images/images_principal/logo_Xabec.jpg" alt="Logo"></a>
-                </h1><!--//logo-->           
-                <div class="info col-md-8 col-sm-8">                    
-                    <ul class="menu-top navbar-right hidden-xs">  
-                        <jsp:include page="jsp/usuario/infologin.jsp" />                        
-                    </ul><!--//menu-top-->
-                    <br />
-                    <div class="contact pull-right">
-                        <p class="phone"><i class="fa fa-phone"></i>Contactanos 963 389 882</p> 
-                        <p class="email"><i class="fa fa-envelope"></i><a href="#">email: info@xabec.es</a></p>
-                    </div><!--//contact-->
-                </div><!--//info-->
-                        
-            </div><!--//header-main-->
-        </header><!--//header-->
-        <nav class="main-nav" role="navigation">
-            <div class="container">
+    <body>
+        <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+
+
+
+       <!--<div class="navbar navbar-default navbar-fixed-top">
+            <div class="container barra">
                 <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->            
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                   <%if (user != null) {%>
+                    </button>
+                    <a class="navbar-brand" href="jsp"></a>
+                </div> -->                 
+                     
+                        <%if (user != null) {%>
                         <jsp:include page="jsp/menuSuperiorUsuario.jsp" /> 
                         <% }%>
+                       <ul class="menu-top navbar-right hidden-xs">
+                        <jsp:include page="jsp/usuario/infologin.jsp" />
+                       </ul>                
+                     
+              
+               <!-- <div class="clearfix"> </div>
+            </div>
+        </div> -->                
                     
-                </div><!--//navabr-collapse-->
-            </div><!--//container-->
-        </nav><!--//main-nav-->       
-    </div>
+
+
+
+
 
         <% if (user != null) {%>
 
@@ -179,7 +140,6 @@
 
         <!-- carga de javascript   -->
 
-
         <script type="text/javascript"  src="./js/vendor/jquery-1.11.1.min.js"></script>
         <script type="text/javascript"  src="./js/vendor/bootstrap.min.js"></script>
         <script type="text/javascript"  src="./js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -204,7 +164,7 @@
         <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
         -->
 
-
+         
         <script src="js/generic/view.js" charset="UTF-8"></script>    
         <script src="js/generic/param.js" charset="UTF-8"></script>
         <script src="js/generic/ajax.js" charset="UTF-8"></script>
@@ -234,59 +194,6 @@
         <!-- Fin Modificación Jesus Usuarios -->  
        
        
-        
-         <!-- Javascript Principal-->          
-    <script type="text/javascript" src="./js/principal_js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
-    <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
-    <script type="text/javascript" src="./js/principal_js/main.js"></script>   
-
-     <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-24707561-9', 'auto');
-            ga('send', 'pageview');
-
-        </script>
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function (f, b, e, v, n, t, s) {
-                if (f.fbq)
-                    return;
-                n = f.fbq = function () {
-                    n.callMethod ?
-                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)};if (!f._fbq)
-                    f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window,
-                    document, 'script', '//connect.facebook.net/en_US/fbevents.js');
-
-            fbq('init', '1506230579705064');
-            fbq('track', "PageView");</script>
         
         <!--MANTENIMIENTOS COLEGIO-->
 

@@ -69,7 +69,7 @@ public class JspControl extends HttpServlet {
             //security check
             if (request.getSession().getAttribute("usuarioBean") == null) {
                 ob = "usuario";
-                if (!op.equals("principal") && !op.equals("login02")) {
+                if (!op.equals("inicio") && !op.equals("login02")) {
                     op = "login01";
                     mode = "wrappered";
                 }

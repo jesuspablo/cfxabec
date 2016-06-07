@@ -54,7 +54,7 @@ view.prototype.printValue = function (value, valor, recortar) {
 };
 
 view.prototype.getSpinner = function () {
-    return '<img src="images/ajax-loading.gif" alt="cargando..." />';
+    return "";//'<img src="images/ajax-loading.gif" alt="cargando..." />';
 }
 view.prototype.getEmptyModal = function () {
     var modal = '<div id="modal01" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">';
