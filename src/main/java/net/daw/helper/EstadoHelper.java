@@ -34,23 +34,23 @@ public class EstadoHelper {
     }
 
     public static String getFecha() {
-        return "28/05/2015";
+        return "13/06/2016";
     }
 
     public static String getAnyo() {
-        return "2015";
+        return "2016";
     }
 
     public static String getCurso() {
-        return "2014-2015";
+        return "2015-2016";
     }
 
     public static String getAutor() {
-        return "Proyecto IES Montealen Jesus Pablo dong";
+        return "Centro de Formación Profesional Xabec";
     }
 
     public static String getMailAutor() {
-        return "admyfinndongjesus{at}gmail{dot}com";
+        return "Jesus Pablo Ndong";
     }
 
     public static String getLicenciaLink() {

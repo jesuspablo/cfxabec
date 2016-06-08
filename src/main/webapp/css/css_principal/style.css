@@ -2049,4 +2049,15 @@ li #Usuloger:hover {
     color: red;   
 }
 
+.news-item p {
+    margin-left: 48px;
+}
+
+.news-item h2 {
+    margin-left: 45px;
+}
+
+.read-more{
+    margin-left: 50px;
+}
 

@@ -70,11 +70,11 @@
                     <p>No te arriesgues a dejar de ser una persona para comenzar a ser un instrumento: estudia. No mereces menos que ser un mejor ser humano.</p>
                 </div>  
                 <div class="col-md-3">
-                    <a class="btn btn-cta" href="#"><i class="fa fa-play-circle"></i>Apply Now</a>  
+                    <a class="btn btn-cta" href="#"><i class="fa fa-play-circle"></i>Aplica ahora</a>  
                 </div>
             </section><!--//promo-->
             <section class="news">
-                <h1 class="section-heading text-highlight"><span class="line">Latest News</span></h1>     
+                <h1 class="section-heading text-highlight"><span class="line">Últimas noticias</span></h1>     
                 <div class="carousel-controls">
                     <a class="prev" href="#news-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
                     <a class="next" href="#news-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>
@@ -84,41 +84,41 @@
                         <div class="carousel-inner">
                             <div class="item active"> 
                                 <div class="col-md-4 news-item">
-                                    <h2 class="title"><a href="news-single.html">Phasellus scelerisque metus</a></h2>
+                                    <h2 class="title"><a href="news-single.html">Id temores térmicas</a></h2>
                                     <img class="thumb" src="./images/images_principal/news-thumb-1.jpg"  alt="" />
                                     <p>Suspendisse purus felis, porttitor quis sollicitudin sit amet, elementum et tortor. Praesent lacinia magna in malesuada vestibulum. Pellentesque urna libero.</p>
-                                    <a class="read-more" href="news-single.html">Read more<i class="fa fa-chevron-right"></i></a>                
+                                    <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>                
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
-                                    <h2 class="title"><a href="news-single.html">Morbi at vestibulum turpis</a></h2>
+                                    <h2 class="title"><a href="news-single.html">Nutrición en la entrada de la escuela</a></h2>
                                     <p>Nam feugiat erat vel neque mollis, non vulputate erat aliquet. Maecenas ac leo porttitor, semper risus condimentum, cursus elit. Vivamus vitae libero tellus.</p>
-                                    <a class="read-more" href="news-single.html">Read more<i class="fa fa-chevron-right"></i></a>
+                                    <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>
                                     <img class="thumb" src="./images/images_principal/news-thumb-2.jpg"  alt="" />
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
-                                    <h2 class="title"><a href="news-single.html">Aliquam id iaculis urna</a></h2>
+                                    <h2 class="title"><a href="news-single.html">La última se dirige olla</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum mauris eget sapien consectetur pellentesque. Proin elementum tristique euismod. </p>
-                                    <a class="read-more" href="news-single.html">Read more<i class="fa fa-chevron-right"></i></a>
+                                    <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>
                                     <img class="thumb" src="./images/images_principal/news-thumb-3.jpg"  alt="" />
                                 </div><!--//news-item-->
                             </div><!--//item-->
                             <div class="item"> 
                                 <div class="col-md-4 news-item">
-                                    <h2 class="title"><a href="news-single.html">Phasellus scelerisque metus</a></h2>
+                                    <h2 class="title"><a href="news-single.html">Id temores térmicas</a></h2>
                                     <img class="thumb" src="./images/images_principal/news-thumb-4.jpg"  alt="" />
                                     <p>Suspendisse purus felis, porttitor quis sollicitudin sit amet, elementum et tortor. Praesent lacinia magna in malesuada vestibulum. Pellentesque urna libero.</p>
-                                    <a class="read-more" href="news-single.html">Read more<i class="fa fa-chevron-right"></i></a>                
+                                    <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>                
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
-                                    <h2 class="title"><a href="news-single.html">Morbi at vestibulum turpis</a></h2>
+                                    <h2 class="title"><a href="news-single.html">Nutrición en la entrada de la escuela</a></h2>
                                     <p>Nam feugiat erat vel neque mollis, non vulputate erat aliquet. Maecenas ac leo porttitor, semper risus condimentum, cursus elit. Vivamus vitae libero tellus.</p>
-                                    <a class="read-more" href="news-single.html">Read more<i class="fa fa-chevron-right"></i></a>
+                                    <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>
                                     <img class="thumb" src="./images/images_principal/news-thumb-5.jpg"  alt="" />
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
-                                    <h2 class="title"><a href="news-single.html">Aliquam id iaculis urna</a></h2>
+                                    <h2 class="title"><a href="news-single.html">La última se dirige olla</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum mauris eget sapien consectetur pellentesque. Proin elementum tristique euismod. </p>
-                                    <a class="read-more" href="news-single.html">Read more<i class="fa fa-chevron-right"></i></a>
+                                    <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>
                                     <img class="thumb" src="./images/images_principal/news-thumb-6.jpg"  alt="" />
                                 </div><!--//news-item-->
                             </div><!--//item-->
@@ -129,84 +129,75 @@
             <div class="row cols-wrapper">
                 <div class="col-md-3">
                     <section class="events">
-                        <h1 class="section-heading text-highlight"><span class="line">Events</span></h1>
+                        <h1 class="section-heading text-highlight"><span class="line">Eventos</span></h1>
                         <div class="section-content">
                             <div class="event-item">
                                 <p class="date-label">
-                                    <span class="month">FEB</span>
+                                    <span class="month">Febre</span>
                                     <span class="date-number">18</span>
                                 </p>
                                 <div class="details">
-                                    <h2 class="title">Open Day</h2>
+                                    <h2 class="title">Dia de puertas abiertas</h2>
                                     <p class="time"><i class="fa fa-clock-o"></i>10:00am - 18:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>East Campus</p>                            
+                                    <p class="location"><i class="fa fa-map-marker"></i>Actividades Culturales</p>                            
                                 </div><!--//details-->
                             </div><!--event-item-->  
                             <div class="event-item">
                                 <p class="date-label">
-                                    <span class="month">SEP</span>
+                                    <span class="month">Septiem</span>
                                     <span class="date-number">06</span>
                                 </p>
                                 <div class="details">
-                                    <h2 class="title">E-learning at College Green</h2>
+                                    <h2 class="title">Aprendizaje </h2>
                                     <p class="time"><i class="fa fa-clock-o"></i>10:00am - 16:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>Learning Center</p>                            
+                                    <p class="location"><i class="fa fa-map-marker"></i>En el Centro</p>                            
                                 </div><!--//details-->
                             </div><!--event-item-->
                             <div class="event-item">
                                 <p class="date-label">
-                                    <span class="month">JUN</span>
+                                    <span class="month">Junio</span>
                                     <span class="date-number">23</span>
                                 </p>
                                 <div class="details">
-                                    <h2 class="title">Career Fair</h2>
+                                    <h2 class="title">Maratón de los alumnos</h2>
                                     <p class="time"><i class="fa fa-clock-o"></i>09:45am - 16:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>Library</p>                            
+                                    <p class="location"><i class="fa fa-map-marker"></i>En el patio</p>                            
                                 </div><!--//details-->
                             </div><!--event-item-->
                             <div class="event-item">
                                 <p class="date-label">
-                                    <span class="month">May</span>
+                                    <span class="month">Mayo</span>
                                     <span class="date-number">17</span>
                                 </p>
                                 <div class="details">
-                                    <h2 class="title">Science Seminar</h2>
+                                    <h2 class="title">Seminarios</h2>
                                     <p class="time"><i class="fa fa-clock-o"></i>14:00pm - 18:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>Library</p>                            
+                                    <p class="location"><i class="fa fa-map-marker"></i>Aula 07</p>                            
                                 </div><!--//details-->
                             </div><!--event-item-->
-                            <a class="read-more" href="events.html">All events<i class="fa fa-chevron-right"></i></a>
+                            <a class="read-more" href="#">Todos los eventos<i class="fa fa-chevron-right"></i></a>
                         </div><!--//section-content-->
                     </section><!--//events-->
                 </div><!--//col-md-3-->
                 <div class="col-md-6">
                     <section class="course-finder">
-                        <h1 class="section-heading text-highlight"><span class="line">Course Finder</span></h1>
+                        <h1 class="section-heading text-highlight"><span class="line">Buscar cursos</span></h1>
                         <div class="section-content">
                             <form class="course-finder-form" action="#" method="get">
                                 <div class="row">
                                     <div class="col-md-5 col-sm-5 subject">
                                         <select class="form-control subject">
-                                            <option>Choose a subject area</option>
-                                            <option>Accounting & Finance</option>
-                                            <option>Biological Sciences</option>
-                                            <option>Business Studies</option>
-                                            <option>Computer Science</option>
-                                            <option>Creative Arts & Media</option>
-                                            <option>Drama</option>
-                                            <option>Education</option>
-                                            <option>Engineering</option>
-                                            <option>Film Studies</option>
-                                            <option>Fitness Training</option>
-                                            <option>Hospitality</option>
-                                            <option>History</option>
-                                            <option>International Relations</option>
-                                            <option>Law</option>
-                                            <option>Mathematics</option>
-                                            <option>Music</option>
-                                            <option>Physics</option>
-                                            <option>Religion</option>
-                                            <option>Social Science</option>
+                                            <option>Lengua Castellana y Literatura</option>
+                                            <option>Lengua y Literatura de las CC.AA.</option>
+                                            <option>Lengua Extranjera</option>
+                                            <option>Música</option>
+                                            <option>Tecnología</option>
+                                            <option>Educación para la ciudadanía y los derechos humano...</option>
+                                            <option>Enseñanzas de Religión (Religión o Historia y cult...</option>
+                                            <option>Ciencias Sociales, Geografía e Historia</option>
+                                            <option>Educación Física</option>
+                                            <option>Ciencias de la Naturalezas</option>                                            
+                                            <option>Ciencias Sociales</option>
                                         </select>
                                     </div> 
                                     <div class="col-md-7 col-sm-7 keywords">
@@ -215,11 +206,11 @@
                                     </div> 
                                 </div>                     
                             </form><!--//course-finder-form-->
-                            <a class="read-more" href="courses.html">View all our courses<i class="fa fa-chevron-right"></i></a>
+                            <a class="read-more" href="courses.html">Ver todos los cursos<i class="fa fa-chevron-right"></i></a>
                         </div><!--//section-content-->
                     </section><!--//course-finder-->
                     <section class="video">
-                        <h1 class="section-heading text-highlight"><span class="line">Video Tour</span></h1>
+                        <h1 class="section-heading text-highlight"><span class="line">Videos sobre la gira</span></h1>
                         <div class="carousel-controls">
                             <a class="prev" href="#videos-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
                             <a class="next" href="#videos-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>
@@ -238,18 +229,18 @@
                                     </div><!--//item-->
                                 </div><!--//carousel-inner-->
                             </div><!--//videos-carousel-->                            
-                            <p class="description">Aenean feugiat a diam tempus sodales. Quisque lorem nulla, ultrices imperdiet malesuada at, suscipit vel lorem. Nulla dignissim nisi ac aliquet semper.</p>
+                            <p class="description">Yo aprendí mucho de ese primer discurso y he aprendido mucho de mis experiencias de gira, pero en realidad la mayor educación que recibí en los últimos dos años estaba aprendiendo la importancia de los acuerdos.</p>
                         </div><!--//section-content-->
                     </section><!--//video-->
                 </div>
                 <div class="col-md-3">
                     <section class="links">
-                        <h1 class="section-heading text-highlight"><span class="line">Quick Links</span></h1>
+                        <h1 class="section-heading text-highlight"><span class="line">Enlaces</span></h1>
                         <div class="section-content">
-                            <p><a href="#"><i class="fa fa-caret-right"></i>E-learning Portal</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Portal de aprendizaje</a></p>
                             <p><a href="#"><i class="fa fa-caret-right"></i>Gallery</a></p>
-                            <p><a href="#"><i class="fa fa-caret-right"></i>Job Vacancies</a></p>
-                            <p><a href="#"><i class="fa fa-caret-right"></i>Contact</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Ofertas de trabajo</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Contacto</a></p>
                         </div><!--//section-content-->
                     </section><!--//links-->
                     <section class="testimonials">
@@ -263,31 +254,31 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <blockquote class="quote">                                  
-                                            <p><i class="fa fa-quote-left"></i>I?m very happy interdum eget ipsum. Nunc pulvinar ut nulla eget sollicitudin. In hac habitasse platea dictumst. Integer mattis varius ipsum, posuere posuere est porta vel. Integer metus ligula, blandit ut fermentum a, rhoncus in ligula. Duis luctus.</p>
+                                            <p><i class="fa fa-quote-left"></i>Jugar muestra es muy divertido. Y escribir música es muy divertido. Pero ir de gira durante un año es una de las experiencias más alma-aplastamiento que puede tener como una persona creativa.</p>
                                         </blockquote>                
                                         <div class="row">
                                             <p class="people col-md-8 col-sm-3 col-xs-8"><span class="name">Marissa Spencer</span><br /><span class="title">Curabitur commodo</span></p>
-                                            <img class="profile col-md-4 pull-right" src="./images/images_principal/testimonials/profile-1.png"  alt="" />
+                                            <img class="profile col-md-4 pull-right" src="./images/images_principal/profile-1.png"  alt="" />
                                         </div>                               
                                     </div><!--//item-->
                                     <div class="item">
                                         <blockquote class="quote">
                                             <p><i class="fa fa-quote-left"></i>
-                                                I'm very pleased commodo gravida ultrices. Sed massa leo, aliquet non velit eu, volutpat vulputate odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor metus eros, ut fringilla nulla auctor a.</p>
+                                                Una gran parte de mi vida gira en torno a mi padre. A veces, hasta me siento un fuerte sentido de conexión, algo muy tangible cuando aprendo algo nuevo en las artes marciales.</p>
                                         </blockquote>
                                         <div class="row">
                                             <p class="people col-md-8 col-sm-3 col-xs-8"><span class="name">Marco Antonio</span><br /><span class="title"> Gravida ultrices</span></p>
-                                            <img class="profile col-md-4 pull-right" src="./images/images_principal/testimonials/profile-2.png"  alt="" />
+                                            <img class="profile col-md-4 pull-right" src="./images/images_principal/profile-2.png"  alt="" />
                                         </div>                 
                                     </div><!--//item-->
                                     <div class="item">
                                         <blockquote class="quote">
                                             <p><i class="fa fa-quote-left"></i>
-                                                I'm delighted commodo gravida ultrices. Sed massa leo, aliquet non velit eu, volutpat vulputate odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor metus eros, ut fringilla nulla auctor a.</p>
+                                                Estar de gira es como estar en el limbo. Es como ir de ninguna parte a ninguna parte.</p>
                                         </blockquote>
                                         <div class="row">
                                             <p class="people col-md-8 col-sm-3 col-xs-8"><span class="name">Kate White</span><br /><span class="title"> Gravida ultrices</span></p>
-                                            <img class="profile col-md-4 pull-right" src="./images/images_principal/testimonials/profile-3.png"  alt="" />
+                                            <img class="profile col-md-4 pull-right" src="./images/images_principal/profile-3.png"  alt="" />
                                         </div>                 
                                     </div><!--//item-->
 
@@ -307,43 +298,43 @@
                 <div class="row">
                     <div class="footer-col col-md-3 col-sm-4 about">
                         <div class="footer-col-inner">
-                            <h3>About</h3>
+                            <h3>Acerca de</h3>
                             <ul>
-                                <li><a href="about.html"><i class="fa fa-caret-right"></i>About us</a></li>
-                                <li><a href="contact.html"><i class="fa fa-caret-right"></i>Contact us</a></li>
-                                <li><a href="privacy.html"><i class="fa fa-caret-right"></i>Privacy policy</a></li>
-                                <li><a href="terms-and-conditions.html"><i class="fa fa-caret-right"></i>Terms & Conditions</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Sobre nosotros</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Contáctenos</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Política de privacidad</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>Términos y condiciones</a></li>
                             </ul>
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col-->
                     <div class="footer-col col-md-6 col-sm-8 newsletter">
                         <div class="footer-col-inner">
-                            <h3>Join our mailing list</h3>
-                            <p>Subscribe to get our weekly newsletter delivered directly to your inbox</p>
+                            <h3>Únete a nuestra lista de correos</h3>
+                            <p>Suscríbete para recibir nuestro boletín semanal directamente en su bandeja de entrada</p>
                             <form class="subscribe-form">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Enter your email" />
+                                    <input type="email" class="form-control" placeholder="Introduce tu correo electrónico" />
                                 </div>
-                                <input class="btn btn-theme btn-subscribe" type="submit" value="Subscribe">
+                                <input class="btn btn-theme btn-subscribe" type="submit" value="Suscribete">
                             </form>
 
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col--> 
                     <div class="footer-col col-md-3 col-sm-12 contact">
                         <div class="footer-col-inner">
-                            <h3>Contact us</h3>
+                            <h3>Contáctenos</h3>
                             <div class="row">
                                 <p class="adr clearfix col-md-12 col-sm-4">
                                     <i class="fa fa-map-marker pull-left"></i>        
                                     <span class="adr-group pull-left">       
-                                        <span class="street-address">College Green</span><br>
-                                        <span class="region">56 College Green Road</span><br>
-                                        <span class="postal-code">BS16 AP18</span><br>
-                                        <span class="country-name">UK</span>
+                                        <span class="street-address">Carrer de l'Arquitecte Rodríguez</span><br>
+                                        <span class="region">54-56, Valencia</span><br>
+                                        <span class="postal-code">46019</span><br>
+                                        <span class="country-name">España</span>
                                     </span>
                                 </p>
-                                <p class="tel col-md-12 col-sm-4"><i class="fa fa-phone"></i>0800 123 4567</p>
-                                <p class="email col-md-12 col-sm-4"><i class="fa fa-envelope"></i><a href="#">enquires@website.com</a></p>  
+                                <p class="tel col-md-12 col-sm-4"><i class="fa fa-phone"></i>963 38 98 82</p>
+                                <p class="email col-md-12 col-sm-4"><i class="fa fa-envelope"></i><a href="#">email: info@xabec.es</a></p>  
                             </div> 
                         </div><!--//footer-col-inner-->            
                     </div><!--//foooter-col-->   
@@ -353,7 +344,7 @@
         <div class="bottom-bar">
             <div class="container">
                 <div class="row">
-                    <small class="copyright col-md-6 col-sm-12 col-xs-12">Copyright @ 2014 College Green Online | Website template by <a href="#">3rd Wave Media</a></small>
+                    <small class="copyright col-md-6 col-sm-12 col-xs-12">Copyright © 2015 Centro de Formación Profesional Xabec: (2015) - GNU General Public License, version 2</small>
                     <ul class="social pull-right col-md-6 col-sm-12 col-xs-12">
                         <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#" ><i class="fa fa-facebook"></i></a></li>

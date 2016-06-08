@@ -39,11 +39,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
          <link rel="stylesheet" href="css/bootstrap.min.css"> 
-        <link rel="stylesheet" href="css/jquery-ui.css"> 
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/bootstrapValidator.min.css">
-        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
-    
+        
         
         <!--//principla css-->
         <link rel="shortcut icon" href="favicon.ico">  
@@ -57,7 +53,11 @@
         <!-- Theme CSS -->      
         <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css"> 
         
-
+        <link rel="stylesheet" href="css/jquery-ui.css"> 
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrapValidator.min.css">
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
+    
         <% if (user != null) {%>
         
         <link rel="stylesheet" href="css/skin/<%=user.getSkin()%>.css">
@@ -124,9 +124,9 @@
                 </div><!--//navbar-header-->            
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                    <%if (user != null) {%>
-                        <jsp:include page="jsp/menuSuperiorUsuario.jsp" /> 
+                        <jsp:include page="jsp/menuSuperiorUsuarioOut.jsp" /> 
                         <% } else {%>        
-                        <jsp:include page="jsp/menuSuperiorUsuario2.jsp" />
+                        <jsp:include page="jsp/menuSuperiorUsuarioLogin.jsp" />
                         <% }%>
                     
                 </div><!--//navabr-collapse-->
