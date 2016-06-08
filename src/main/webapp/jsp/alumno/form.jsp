@@ -32,14 +32,14 @@
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="nombre">Nombre:</label>
         <div class="col-sm-6">
-            <input type="text" id="nombre" class="form-control"  name="nombre" size="15" placeholder="Título del alumno" />
+            <input type="text" id="nombre" class="form-control"  name="nombre" size="15" placeholder="Nombre del alumno" />
         </div>
     </div>
 
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="apellido">Primer apellido:</label>
         <div class="col-sm-6">
-            <input type="text" id="apellido" class="form-control"  name="apellido" size="15" placeholder="Título del alumno" />
+            <input type="text" id="apellido" class="form-control"  name="apellido" size="15" placeholder="Apellidos del alumno" />
         </div>
     </div>
 
@@ -48,7 +48,7 @@
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="Email">Email:</label>
         <div class="col-sm-6">
-            <input type="text" id="Email" class="form-control"  name="Email" size="15" placeholder="Título del alumno" />
+            <input type="text" id="Email" class="form-control"  name="Email" size="15" placeholder="Email" />
         </div>
     </div>
 
@@ -117,7 +117,7 @@
                                 },
                                 stringLength: {
                                     max: 255,
-                                    message: 'El título del alumno debe tener como máximo 255 caracteres'
+                                    message: 'El nombre del alumno debe tener como máximo 255 caracteres'
                                 }
                             }
                         },
@@ -125,11 +125,11 @@
                             apellido: {
                                 validators: {
                                     notEmpty: {
-                                        message: 'Debe introducir el apellido del alumno'
+                                        message: 'Debe introducir los apellido del alumno'
                                     },
                                     stringLength: {
                                         max: 255,
-                                        message: 'El título del alumno debe tener como máximo 255 caracteres'
+                                        message: 'El apellido del alumno debe tener como máximo 255 caracteres'
                                     }
                                 }
                             },
@@ -137,7 +137,7 @@
                                 email: {
                                     validators: {
                                         notEmpty: {
-                                            message: 'Debe introducir un email.'
+                                            message: 'Debe introducir un correo.'
                                         },
                                         stringLength: {
                                             max: 50,
@@ -173,10 +173,10 @@
                                     id_nivel: {
                                         validators: {
                                             notEmpty: {
-                                                message: 'Debe elegir un usuario'
+                                                message: 'Debe elegir el nivel del alumno'
                                             },
                                             integer: {
-                                                message: 'El identificador de usuario debe ser un entero'
+                                                message: 'El identificador debe ser un entero'
                                             }
                                         }
                                     },

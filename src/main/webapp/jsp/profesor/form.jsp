@@ -157,14 +157,12 @@
                         },
                     }
                 })
+                
                 .on('change', '[name="id_usuario"]', function() {
                     $('#profesorForm').bootstrapValidator('revalidateField', 'id_usuario');
-                })
-
-                .on('change', '[name="id_nivel"]', function() {
-                    $('#profesorForm').bootstrapValidator('revalidateField', 'id_nivel');
-                })
-                ;
+                });
+                
+                
     });       
 
     

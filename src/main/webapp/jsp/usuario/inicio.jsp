@@ -23,7 +23,7 @@
    
 <!-- ******NAV****** -->
 
-<div class="wrapper" >        
+<div class="wrapper">        
 
         <!-- ******CONTENT****** --> 
         <div class="content container">
@@ -368,5 +368,5 @@
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
-    </div>
+    
 

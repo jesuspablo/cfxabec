@@ -19,10 +19,24 @@ and open the template in the editor.
     margin-top: 15% !important;
 }
 
+/* Navbar */
+#app {
+    position: absolute;
+    top: 2%;
+    left: 47%;
+}
 
 
+/* Cabecera de los paneles */
+.navbar-default {
+    background: #001f3f;
+    padding-top: 8px;   
+    
+}
 
-
+img {
+width: 150px;
+}
 
 #result h1 {
     background: #001f3f;
@@ -46,23 +60,8 @@ and open the template in the editor.
     margin-left: 556px;
 }
 
-.navbar>.container .navbar-brand{
-    margin-left: 10px;
-    margin-top: 5px;
-}
 
-.navbar-default .navbar-brand {
-    margin-left: 30px;
-    font-size: 18px;
-    padding-top: 9px;   
-    color: white;
-    font-family: "Oxygen",sans-serif;   
-}
 
-.navbar-default .navbar-brand:hover {
-    color: silver;
-    
-}
 
 .dropdown-menu {
     background: #001f3f;
@@ -101,17 +100,13 @@ and open the template in the editor.
 .nav-tabs>li>a {
      color: #001f3f;
 }
-a {
-    text-decoration: none !important;
-    color: white;
-}
+
 .icon-arrow-up-2 , .icon-arrow-down-2{
     color: #08250a;
 }
 .icon-arrow-up-2:hover , .icon-arrow-down-2:hover {
     color: grey;
 }
-
 
 .datepicker th{
     background-color: white;
@@ -242,3 +237,6 @@ td a {
     }
 }
 
+.contenido {
+    display: none;
+}

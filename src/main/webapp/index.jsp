@@ -39,7 +39,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
          <link rel="stylesheet" href="css/bootstrap.min.css"> 
-        
+        <link rel="stylesheet" href="css/jquery-ui.css"> 
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrapValidator.min.css">
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
+    
         
         <!--//principla css-->
         <link rel="shortcut icon" href="favicon.ico">  
@@ -51,17 +55,8 @@
         <link rel="stylesheet" href="css/css_principal/flexslider.css">
         <!-- <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css"> -->
         <!-- Theme CSS -->      
-        <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css"> 
         
-       
-       
-         <link rel="stylesheet" href="css/jquery-ui.css"> 
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/bootstrapValidator.min.css">
-        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
-    
-        
-
 
         <% if (user != null) {%>
         

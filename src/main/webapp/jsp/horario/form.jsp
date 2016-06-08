@@ -42,7 +42,7 @@
             <div class='input-group date' id='horainicio'>
                 <input type='text' class="form-control" id='fecna' name="horainicio" placeholder="Hora Inicio" />
                 <span class="input-group-addon">
-                    <span class="icon-calendar"></span>
+                    <span class="glyphicon-calendar glyphicon"></span>
                 </span>
             </div>
         </div>
@@ -54,7 +54,7 @@
             <div class='input-group date' id='horafin'>
                 <input type='text' class="form-control" id='fecna' name="horafin" placeholder="Hora Fin" />
                 <span class="input-group-addon">
-                    <span class="icon-calendar"></span>
+                    <span class="glyphicon-calendar glyphicon"></span>
                 </span>
             </div>
         </div>
