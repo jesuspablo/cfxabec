@@ -1,16 +1,13 @@
 <%-- 
  Copyright (C) July 2014 Rafael Aznar
-
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
  as published by the Free Software Foundation; either version 2
  of the License, or (at your option) any later version.
-
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
-
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software
  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
@@ -32,14 +29,15 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
     <head>  
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>CF Xabec</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/bootstrap.min.css">   
+        <link rel="stylesheet" href="css/bootstrap.css">
         
         <!--//principla css-->
         <link rel="shortcut icon" href="favicon.ico">  
@@ -50,16 +48,17 @@
         <link rel="stylesheet" href="css/css_principal/font-awesome.css">
         <link rel="stylesheet" href="css/css_principal/flexslider.css">
         <!-- <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css"> -->
-        <!-- Theme CSS -->      
-        <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css"> 
-
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="css/css_principal/style.css">
+        
         <link rel="stylesheet" href="css/jquery-ui.css"> 
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/bootstrapValidator.min.css">
-        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />      
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"  />     
+
 
         <% if (user != null) {%>
-
         <link rel="stylesheet" href="css/skin/<%=user.getSkin()%>.css">
         <% } else {%>        
         <link rel="stylesheet" href="css/skin/main.css">
@@ -70,9 +69,6 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-
-
-
     </head>
     <body class="home-page">
         <div class="wrapper">
@@ -126,7 +122,7 @@
                         <%if (user != null) {%>
                         <jsp:include page="jsp/menuSuperiorUsuarioOut.jsp" /> 
                         <% } else {%>        
-                        <jsp:include page="jsp/menuSuperiorUsuarioLogin.jsp" />
+                        <jsp:include page="jsp/menuSuperiorUsuarioLogin.jsp" /> 
                         <% }%>
 
                     </div><!--//navabr-collapse-->
@@ -169,33 +165,50 @@
                 <div class="col-md-12" id="contenidoParseado"></div>   
             </div>            
         </div>  
+
+
         <% }%>
 
 
-        <!--CARGAR Javascript pagina principal   -->
+        <!-- carga de javascript   -->
+
+        
         <script type="text/javascript"  src="./js/vendor/jquery-1.11.1.min.js"></script>
         <script type="text/javascript"  src="./js/vendor/bootstrap.min.js"></script>
         <script type="text/javascript"  src="./js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
         <script type="text/javascript"  src="./js/vendor/moment.js"></script>
         <script type="text/javascript"  src="./js/vendor/moment.locale.es.js"></script>
         <script type="text/javascript"  src="./js/vendor/bootstrap-datetimepicker.min.js"></script>
+
         <script type="text/javascript"  src="./js/vendor/path.min.js"></script> 
         <script type="text/javascript"  src="./js/vendor/bootstrapValidator.min.js"></script>
         <script type="text/javascript"  src="./js/vendor/language/es_ES.js"></script>
         <script type="text/javascript"  src="./js/vendor/creole-parser.js"></script>
 
-
-        <!-- Javascript pagina de Inicio-->  
-        <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
-        <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
-        <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
-        <script type="text/javascript" src="./js/principal_js/main.js"></script>   
-
+        
+        <!-- Javascript -->          
+    <script type="text/javascript" src="./js/principal_js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
+    <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
+    <script type="text/javascript" src="./js/principal_js/main.js"></script>   
+    
+        <!--
+        <script type="text/javascript"  src="./js/vendor/jquery-ui.js"></script>
+        <script src="./js/vendor/jquery.validate.min.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+        <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+        -->
 
 
         <script src="js/generic/view.js" charset="UTF-8"></script>    
@@ -212,8 +225,8 @@
             var mylevel = <%=id_tipousuario%>;
         </script>
 
-         <!--MANTENIMIENTOS ADMINISTRADOR-->
-         
+
+
         <script src="js/specific/usuario/control.js" charset="UTF-8"></script>
         <script src="js/specific/usuario/model.js" charset="UTF-8"></script>
         <script src="js/specific/usuario/view.js" charset="UTF-8"></script>
@@ -223,9 +236,24 @@
         <script src="js/specific/tipousuario/control.js" charset="UTF-8"></script>
         <script src="js/specific/tipousuario/model.js" charset="UTF-8"></script>
         <script src="js/specific/tipousuario/view.js" charset="UTF-8"></script>
-        <script src="js/specific/tipousuario/routes.js" charset="UTF-8"></script>       
+        <script src="js/specific/tipousuario/routes.js" charset="UTF-8"></script>
+        <!-- Fin Modificación Jesus Usuarios -->  
 
 
+
+        <!-- Javascript Principal-->          
+        <script type="text/javascript" src="./js/principal_js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
+        <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
+        <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
+        <script type="text/javascript" src="./js/principal_js/main.js"></script>   
+
+        
 
         <!--MANTENIMIENTOS COLEGIO-->
 
@@ -261,13 +289,10 @@
 
 
         <script type="text/javascript">
-
             $(document).ready(function () {
-
                 //$('#indexContenidoJsp').addClass('animated slideInDown');
                 //$('#menuSuperior').addClass('animated slideInLeft');
                 //$('#menuLateral').addClass('animated slideInRight');
-
                 inicializacion();
 
 
@@ -279,13 +304,8 @@
                 fNotaRoutes();
                 fTipousuarioRoutes();
                 fUsuarioRoutes();
-
-
-
                 Path.listen();
-
             });
-
         </script>
     </body>
 </html>

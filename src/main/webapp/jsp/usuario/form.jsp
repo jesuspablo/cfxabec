@@ -31,13 +31,13 @@
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="login">Nombre de Usuario:</label>
         <div class="col-sm-4">
-            <input type="text" id="login" class="form-control"  name="login" size="15" placeholder="Pon aquí tu nombre de usuario" />
+            <input type="text" id="login" class="form-control"  name="login" size="15" placeholder="ingresa un nombre" />
         </div>
     </div>
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="password">Contraseña:</label>
         <div class="col-sm-4">
-            <input type="text" id="password" class="form-control"  name="password" size="15" placeholder="Pon aquí tu contraseña" />
+            <input type="text" id="password" class="form-control"  name="password" size="15" placeholder="ingresa contraseña" />
         </div>
     </div>
     
@@ -57,14 +57,14 @@
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="ciudad">Ciudad:</label>
         <div class="col-sm-4">
-            <input type="text"  class="form-control"  id="ciudad" name="ciudad" size="15" placeholder="¿Dónde vives?" />
+            <input type="text"  class="form-control"  id="ciudad" name="ciudad" size="15" placeholder="indica tu ciudad" />
         </div>
     </div>
 
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="firma">Firma:</label>
         <div class="col-sm-4">
-            <input type="text"  class="form-control"  id="firma" name="firma" size="15" placeholder="Ponga una firma" />
+            <input type="text"  class="form-control"  id="firma" name="firma" size="15" placeholder="Pon una firma" />
         </div>
     </div>
 

@@ -5500,8 +5500,9 @@ button.close {
   overflow-y: auto;
 }
 .modal-dialog {
+  width: 74%;
   position: relative;
-  width: auto;
+  
   margin: 10px;
 }
 .modal-content {

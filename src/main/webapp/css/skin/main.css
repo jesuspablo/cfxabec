@@ -11,7 +11,6 @@ and open the template in the editor.
 
 
 
-
 .margen-superior {
     margin-top: 80px !important;
 }
@@ -54,7 +53,14 @@ width: 150px;
     color: white;
 }
 
-
+#nav li {
+    font-size: 18px;  
+    padding-top: 9px;
+    margin-left: 11px;
+    display: inline-block;
+    color: white;
+    font-family: "Oxygen",sans-serif;
+}
 
 .glyphicon-log-out {
     margin-left: 556px;
@@ -62,6 +68,19 @@ width: 150px;
 
 
 
+
+.navbar-default .navbar-brand {
+    margin-left: 30px;
+    font-size: 18px;
+    padding-top: 9px;   
+    color: white;
+    font-family: "Oxygen",sans-serif;   
+}
+
+.navbar-default .navbar-brand:hover {
+    color: silver;
+    
+}
 
 .dropdown-menu {
     background: #001f3f;
@@ -100,7 +119,10 @@ width: 150px;
 .nav-tabs>li>a {
      color: #001f3f;
 }
-
+a {
+    text-decoration: none !important;
+    color: white;
+}
 .icon-arrow-up-2 , .icon-arrow-down-2{
     color: #08250a;
 }
