@@ -17,21 +17,25 @@
 --%>
 
         <!-- ******NAV****** -->
- <div class="panel panel-primary">    
-     <div class="panel panel-primary">
+ <div class="panel panel-primary">  
+     
     <div class="panel-heading">
         <h3 class="panel-title">Zona Privada</h3>
     </div>
     <div class="list-group">
-        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/asignatura">Asignaturas del alumno</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/nivel">Cursos</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/asignatura">Mis Asignaturas</a> 
+    </div>
+    <div class="panel-heading">
+        </div>
+       <div class="list-group">        
         <a  class="list-group-item" id="lnkPublicacion" href="jsp#/tarea">Mis Tarea</a> 
         <a  class="list-group-item" id="lnkPublicacion" href="jsp#/proyecto">Proyectos</a> 
         <a  class="list-group-item" id="lnkPublicacion" href="jsp#/estadotarea">Estado Tareas</a> 
         <a  class="list-group-item" id="lnkPublicacion" href="jsp#/tipotarea">Tipos Tareas</a> 
+       </div>    
+</div>
 
-    </div>
-</div>
-</div>
         
        <!--//main-nav-->       
 

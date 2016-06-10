@@ -175,8 +175,22 @@
         <!-- carga de javascript   -->
 
         
-        <script type="text/javascript"  src="./js/vendor/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript"  src="./js/vendor/bootstrap.min.js"></script>
+         <!-- Javascript -->          
+    <script type="text/javascript" src="./js/principal_js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
+    <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
+    <script type="text/javascript" src="./js/principal_js/main.js"></script>  
+        
+        
+        
+        
+        
         <script type="text/javascript"  src="./js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
         <script type="text/javascript"  src="./js/vendor/moment.js"></script>
@@ -189,17 +203,7 @@
         <script type="text/javascript"  src="./js/vendor/creole-parser.js"></script>
 
         
-        <!-- Javascript -->          
-    <script type="text/javascript" src="./js/principal_js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
-    <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
-    <script type="text/javascript" src="./js/principal_js/main.js"></script>   
+ 
     
         <!--
         <script type="text/javascript"  src="./js/vendor/jquery-ui.js"></script>
@@ -243,17 +247,7 @@
 
 
 
-        <!-- Javascript Principal-->          
-        <script type="text/javascript" src="./js/principal_js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="./js/principal_js/bootstrap.min.js"></script> 
-        <script type="text/javascript" src="./js/principal_js/bootstrap-hover-dropdown.min.js"></script> 
-        <script type="text/javascript" src="./js/principal_js/back-to-top.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery.placeholder.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery.prettyPhoto.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jquery.flexslider-min.js"></script>
-        <script type="text/javascript" src="./js/principal_js/jflickrfeed.min.js"></script> 
-        <script type="text/javascript" src="./js/principal_js/main.js"></script>   
+       
 
         
 

@@ -144,12 +144,14 @@ a {
     background-color: #248FCD !important;
     color: white !important;
 }
+/*
 .glyphicon-ok:before {
     content: "\e08a" !important;
 }
 .glyphicon-remove:before {
     content: "\e089" !important;
 }
+*/
 a:hover {
     border: 0px solid black !important;
 }

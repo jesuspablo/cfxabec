@@ -18,7 +18,7 @@
 
         <!-- ******NAV****** -->
           <ul class="nav navbar-nav">
-                        <li class="active nav-item"><a href="index.html">Portada</a></li>
+                        <li class="active nav-item"><a href="jsp">Portada</a></li>
                         <li class="nav-item"><a href="events.html">Noticias</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Centro <i class="fa fa-angle-down"></i></a>
