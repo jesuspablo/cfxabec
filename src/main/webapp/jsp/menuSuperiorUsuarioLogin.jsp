@@ -23,11 +23,11 @@
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Centro <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="courses.html">Organización</a></li>
-                                <li><a href="course-single.html">Proyectos</a></li>
-                                <li><a href="course-single-2.html">Programación de Aulas</a></li>  
-                                <li><a href="course-single-2.html">Horario</a></li>
-                                <li><a href="course-single-2.html">Comedor</a></li>                                        
+                                <li><a href="#">Organización</a></li>
+                                <li><a href="#">Proyectos</a></li>
+                                <li><a href="#l">Programación de Aulas</a></li>  
+                                <li><a href="#">Horario</a></li>
+                                <li><a href="#">Comedor</a></li>                                        
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

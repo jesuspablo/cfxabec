@@ -17,22 +17,17 @@
 --%>
 
         <!-- ******NAV****** -->
- <div class="panel panel-primary">
-    <div class="panel-heading">
-        <h3 class="panel-title">Gestión de Usuarios</h3>
-    </div>
-    <div class="list-group">
-        <a  class="list-group-item" id="lnkUsuario" href="jsp#/usuario">Usuario</a>
-    </div>
+ <div class="panel panel-primary">    
      <div class="panel panel-primary">
     <div class="panel-heading">
-        <h3 class="panel-title">Tareas</h3>
+        <h3 class="panel-title">Zona Privada</h3>
     </div>
     <div class="list-group">
-        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/tarea">Tarea</a> 
-        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/proyecto">Proyecto</a> 
-        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/estadotarea">Estado Tarea</a> 
-        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/tipotarea">Tipo Tarea</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/asignatura">Asignaturas del alumno</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/tarea">Mis Tarea</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/proyecto">Proyectos</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/estadotarea">Estado Tareas</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/tipotarea">Tipos Tareas</a> 
 
     </div>
 </div>
