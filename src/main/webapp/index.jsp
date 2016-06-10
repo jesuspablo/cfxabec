@@ -247,8 +247,27 @@
 
 
 
-       
-
+       <!--TAREAS ALUMNO COLEGIO-->
+        <script src="js/specific/tipotarea/control.js" charset="UTF-8"></script>
+        <script src="js/specific/tipotarea/model.js" charset="UTF-8"></script>
+        <script src="js/specific/tipotarea/view.js" charset="UTF-8"></script>
+        <script src="js/specific/tipotarea/routes.js" charset="UTF-8"></script>
+        
+        <script src="js/specific/proyecto/control.js" charset="UTF-8"></script>
+        <script src="js/specific/proyecto/model.js" charset="UTF-8"></script>
+        <script src="js/specific/proyecto/view.js" charset="UTF-8"></script>
+        <script src="js/specific/proyecto/routes.js" charset="UTF-8"></script>
+        
+        
+        <script src="js/specific/estadotarea/control.js" charset="UTF-8"></script>
+        <script src="js/specific/estadotarea/model.js" charset="UTF-8"></script>
+        <script src="js/specific/estadotarea/view.js" charset="UTF-8"></script>
+        <script src="js/specific/estadotarea/routes.js" charset="UTF-8"></script>
+        
+        <script src="js/specific/tarea/control.js" charset="UTF-8"></script>
+        <script src="js/specific/tarea/model.js" charset="UTF-8"></script>
+        <script src="js/specific/tarea/view.js" charset="UTF-8"></script>
+        <script src="js/specific/tarea/routes.js" charset="UTF-8"></script>
         
 
         <!--MANTENIMIENTOS COLEGIO-->
@@ -300,6 +319,11 @@
                 fNotaRoutes();
                 fTipousuarioRoutes();
                 fUsuarioRoutes();
+                
+                fProyectoRoutes();
+                fEstadotareaRoutes();
+                fTareaRoutes();
+                fTipotareaRoutes();
                 Path.listen();
             });
         </script>
