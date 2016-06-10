@@ -134,7 +134,9 @@
 
         <div class="container">
             <div class="row">
-
+                <div class="col-md-2" id="menuLateral">
+                    <jsp:include page="jsp/menuLateral.jsp" />
+                </div>
                 <div class="col-md-10">
                     <div id="indexContenido"></div>
                     <div id="indexContenidoJsp">

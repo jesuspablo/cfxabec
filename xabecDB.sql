@@ -234,7 +234,122 @@ INSERT INTO `horario` (`id`, `dia`, `horainicio`, `horafin`, `id_asignatura`) VA
 (20, 'Miercoles', '13:00', '14:30', 4);
 
 -- --------------------------------------------------------
+--
+-- Estructura de tabla para la tabla `estadotarea`
+--
 
+CREATE TABLE IF NOT EXISTS `estadotarea` (
+`id` int(11) NOT NULL COMMENT 'ID',
+  `descripcion` varchar(255) NOT NULL COMMENT 'Descripción'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `estadotarea`
+--
+
+INSERT INTO `estadotarea` (`id`, `descripcion`) VALUES
+(1, 'Diseño'),
+(2, 'Sin empezar'),
+(3, 'En proceso'),
+(4, 'Terminada'),
+(5, 'Validada');
+
+-- --------------------------------------------------------
+--
+-- Estructura de tabla para la tabla `tarea`
+--
+
+CREATE TABLE IF NOT EXISTS `tarea` (
+`id` int(11) NOT NULL COMMENT 'Id',
+  `descripcion` varchar(255) DEFAULT NULL COMMENT 'Descripción',
+  `fechaentrega` datetime DEFAULT NULL COMMENT 'Fecha Entrega',
+  `id_usuario` int(6) DEFAULT NULL COMMENT 'ID Usuario',
+  `id_tipotarea` int(6) DEFAULT NULL COMMENT 'ID Tipo tarea',
+  `id_estadotarea` int(6) DEFAULT NULL COMMENT 'ID Estado tarea'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=26 ;
+
+--
+-- Volcado de datos para la tabla `tarea`
+--
+
+INSERT INTO `tarea` (`id`, `descripcion`, `fechaentrega`, `id_usuario`, `id_tipotarea`, `id_estadotarea`) VALUES
+(1, 'diseño de la base de datos', '2014-12-17 15:16:27', 1, 3, 1),
+(2, 'programación de un mantenimiento', '2015-03-18 06:11:35', 2, 4, 2),
+(3, 'programación de una clave ajena', '2014-12-10 10:17:40', 3, 5, 3),
+(4, 'gestión de permisos', '2015-05-15 13:00:00', 4, 6, 4),
+(5, 'gestión de permisos', '2014-06-17 06:16:16', 5, 7, 5),
+(6, 'programación de una clave ajena', '2014-11-11 00:00:00', 6, 8, 5),
+(7, 'programación de un mantenimiento', '2014-07-31 09:33:45', 7, 9, 4),
+(8, 'diseño de la base de datos', '2014-08-21 13:35:30', 8, 9, 3),
+(9, 'programación de una clave ajena', '2014-09-02 00:30:29', 9, 8, 2),
+(10, 'gestión de permisos', '2014-05-30 11:29:30', 10, 7, 1),
+(11, 'programación de un mantenimiento', '2014-10-22 00:00:00', 11, 6, 1),
+(12, 'diseño de la base de datos', NULL, 12, 5, 2),
+(13, 'programación de un mantenimiento', '2014-03-04 13:25:11', 13, 4, 3),
+(14, 'gestión de permisos', '2014-12-08 07:12:00', 14, 3, 4),
+(15, 'diseño de la base de datos', '2014-10-14 20:48:00', 15, 2, 5),
+(16, 'programación de un mantenimiemto', '2014-12-02 09:16:00', 16, 1, 5),
+(17, 'programación de una clave ajena', '2014-12-15 00:00:00', 17, 1, 4),
+(18, 'gestión de permisos', '2014-12-08 00:00:00', 18, 2, 3),
+(19, 'diseño de la base de datos', '2014-01-08 00:00:00', 19, 3, 2),
+(20, 'programación de un mantenimiemto', '2014-09-11 16:29:42', 20, 4, 1),
+(21, 'programación de una clave ajena', '2014-02-06 08:21:47', 21, 5, 4),
+(22, 'gestión de permisos', '2014-08-13 05:42:00', 22, 6, 2),
+(23, 'programación de un mantenimiento', '2014-09-17 08:21:00', 23, 7, 3),
+(24, 'programacion de una clave ajena', '2014-09-02 13:00:00', 24, 8, 4),
+(25, 'diseño de la base de datos', '2014-07-16 11:18:00', 25, 9, 5);
+
+-- --------------------------------------------------------
+--
+-- Estructura de tabla para la tabla `proyecto`
+--
+
+CREATE TABLE IF NOT EXISTS `proyecto` (
+`id` int(11) NOT NULL COMMENT 'id',
+  `descripcion` varchar(250) DEFAULT NULL COMMENT 'descripción'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+
+--
+-- Volcado de datos para la tabla `proyecto`
+--
+
+INSERT INTO `proyecto` (`id`, `descripcion`) VALUES
+(1, 'Gesti%C3%B3n%20de%20proyectos'),
+(2, 'Foro'),
+(3, 'Blog'),
+(4, 'Tienda virtual'),
+(5, 'Red social'),
+(6, 'Actividades'),
+(7, 'Noticias sociales'),
+(8, 'Facturación'),
+(9, 'Cuestionarios');
+
+-- --------------------------------------------------------
+--
+-- Estructura de tabla para la tabla `tipotarea`
+--
+
+CREATE TABLE IF NOT EXISTS `tipotarea` (
+`id` int(11) NOT NULL COMMENT 'Id',
+  `descripcion` varchar(250) DEFAULT NULL COMMENT 'Descripción'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+
+--
+-- Volcado de datos para la tabla `tipotarea`
+--
+
+INSERT INTO `tipotarea` (`id`, `descripcion`) VALUES
+(1, 'diseño de la base de datos'),
+(2, 'diseño del programa'),
+(3, 'diseño del interface'),
+(4, 'programación del cliente'),
+(5, 'programación del servidor'),
+(6, 'reparación de error en cliente'),
+(7, 'reparación de error en servidor'),
+(8, 'documentación'),
+(9, 'gestión de permisos');
+
+-- --------------------------------------------------------
 --
 -- Estructura de tabla para la tabla `mensajeprivado`
 --

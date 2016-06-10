@@ -20,11 +20,11 @@
          <ul class="nav navbar-nav">
                         <li class="active nav-item"><a href="#">Inicio</a></li>
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Courses <i class="fa fa-angle-down"></i></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Cursos<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="courses.html">Course List</a></li>
-                                <li><a href="course-single.html">Single Course (with image)</a></li>
-                                <li><a href="course-single-2.html">Single Course (with video)</a></li>  
+                                <li><a href="#">Lista de Cursos</a></li>
+                                <li><a href="#">Single Course (with image)</a></li>
+                                <li><a href="#">Single Course (with video)</a></li>  
                                 <li class="dropdown-submenu">
                                     <a class="trigger" tabindex="-1" href="#">Menu Levels <i class="fa fa-angle-right"></i></a>
                                     <ul class="dropdown-menu">
@@ -43,7 +43,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a href="jsp#/usuario">Listar Usuarios</a></li>
+                        <li class="nav-item"><a href="jsp#/usuario">Usuarios</a></li>
 
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Profesores <i class="fa fa-angle-down"></i></a>
