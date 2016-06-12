@@ -27,6 +27,6 @@
 <li>   
     <a id="Usuloger" href="#"> <i class="icon-user">Conectado como <%=usuario%> (Nivel: <%=level%>)</i></a>
 </li>
-<li><a href="jsp?ob=usuario&op=logout">Lock out</a></li>
+<li><a href="jsp?ob=usuario&op=logout">Log out</a></li>
     <%} else {%>
-<li><a href="jsp?op=login01&ob=usuario">Login</a></li><%}%>
+<li><a href="jsp?op=login01&ob=usuario">Log in</a></li><%}%>

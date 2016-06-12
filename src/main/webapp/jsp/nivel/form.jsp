@@ -88,7 +88,7 @@
                                 }
                             }
                         },
-                        fields: {
+                       
                         curso: {
                             validators: {
                                 notEmpty: {
@@ -100,7 +100,7 @@
                                 }
                             }
                         },
-                        fields: {
+                      
                         aula: {
                             validators: {
                                 notEmpty: {
@@ -112,16 +112,10 @@
                                 }
                             }
                         },
-                    }
-                })
-                .on('change', '[name="id_usuario"]', function () {
-                    $('#nivelForm').bootstrapValidator('revalidateField', 'id_usuario');
-                })
-
-                .on('change', '[name="id_nivel"]', function () {
-                    $('#nivelForm').bootstrapValidator('revalidateField', 'id_nivel');
-                })
-                ;
+                    
+                }
+               
+            });
     });
 
 

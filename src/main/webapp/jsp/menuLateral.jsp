@@ -23,7 +23,7 @@
         <h3 class="panel-title">Zona Privada</h3>
     </div>
     <div class="list-group">
-        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/nivel">Cursos</a> 
+        <a  class="list-group-item" id="lnkPublicacion" href="jsp#/nivel">Mi Curso</a> 
         <a  class="list-group-item" id="lnkPublicacion" href="jsp#/asignatura">Mis Asignaturas</a> 
     </div>
     <div class="panel-heading">

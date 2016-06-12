@@ -135,6 +135,10 @@ a {
     color: black;
 }
 
+.datepicker-days {
+    background-color: white;
+}
+
 
 /* Sobreescribo botones conflictivos de bootstrapt con iconFont*/
 .tile-group-title {

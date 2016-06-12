@@ -76,12 +76,6 @@
         <label class="col-sm-7" for="obj_usuario_desc" id="obj_usuario_desc"></label>                     
     </div>
 
-
-
-
-
-
-
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <div id="messages"></div>
@@ -121,7 +115,7 @@
                                 }
                             }
                         },
-                        fields: {
+                        
                             apellido: {
                                 validators: {
                                     notEmpty: {
@@ -133,8 +127,8 @@
                                     }
                                 }
                             },
-                            fields: {
-                                email: {
+                            
+                                Email: {
                                     validators: {
                                         notEmpty: {
                                             message: 'Debe introducir un correo.'
@@ -148,7 +142,7 @@
                                         }
                                     }
                                 },
-                                fields: {
+                                
                                     Foto: {
                                         validators: {
                                             notEmpty: {
@@ -180,19 +174,19 @@
                                             }
                                         }
                                     },
-                                }
-                            }
-                        }
+                                
+                            
+                        
                     }
                 })
 
 
                 .on('change', '[name="id_usuario"]', function () {
-                    $('#nivelForm').bootstrapValidator('revalidateField', 'id_usuario');
+                    $('#alumnoForm').bootstrapValidator('revalidateField', 'id_usuario');
                 })
 
                 .on('change', '[name="id_nivel"]', function () {
-                    $('#nivelForm').bootstrapValidator('revalidateField', 'id_nivel');
+                    $('#alumnoForm').bootstrapValidator('revalidateField', 'id_nivel');
                 })
                 ;
 

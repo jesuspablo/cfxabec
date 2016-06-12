@@ -84,8 +84,7 @@
         
 
 <script type="text/javascript">
-
-    $(document).ready(function() {
+    $(document).ready(function () {
         //http://jqueryvalidation.org/documentation/
         $('#profesorForm')
                 .bootstrapValidator({
@@ -99,16 +98,28 @@
                         nombre: {
                             validators: {
                                 notEmpty: {
-                                    message: 'Debe introducir un nombre del profesor'
+                                    message: 'Debe introducir un nombre del alumno'
                                 },
                                 stringLength: {
                                     max: 255,
-                                    message: 'El nombre del profesor debe tener como máximo 255 caracteres'
+                                    message: 'El nombre del alumno debe tener como máximo 255 caracteres'
                                 }
                             }
                         },
-                         fields: {
-                        especialidad: {
+                        
+                            apellido: {
+                                validators: {
+                                    notEmpty: {
+                                        message: 'Debe introducir los apellido del alumno'
+                                    },
+                                    stringLength: {
+                                        max: 255,
+                                        message: 'El apellido del alumno debe tener como máximo 255 caracteres'
+                                    }
+                                }
+                            },
+                            
+                             especialista: {
                             validators: {
                                 notEmpty: {
                                     message: 'Debe introducir la especialidad del profesor'
@@ -119,53 +130,46 @@
                                 }
                             }
                         },
-                         fields: {
-                        apellido: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Debe introducir los apellidos del profesor'
+                            
+                                Email: {
+                                    validators: {
+                                        notEmpty: {
+                                            message: 'Debe introducir un correo.'
+                                        },
+                                        stringLength: {
+                                            max: 50,
+                                            message: 'La longitud del email no puede ser mayor de 50'
+                                        },
+                                        emailAddress: {
+                                            message: 'Debe introducir un email valido.'
+                                        }
+                                    }
                                 },
-                                stringLength: {
-                                    max: 255,
-                                    message: 'Los apellidos del profesor debe tener como máximo 255 caracteres'
-                                }
-                            }
-                        },
-                        id_usuario: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Debe elegir un usuario'
-                                },
-                                integer: {
-                                    message: 'El identificador de usuario debe ser un entero'
-                                }
-                            }
-                        },
-                         email: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Debe introducir un email.'
-                                },
-                                stringLength: {
-                                    max: 50,
-                                    message: 'La longitud del email no puede ser mayor de 50'
-                                },
-                                emailAddress: {
-                                    message: 'Debe introducir un email valido.'
-                                }
-                            }
-                        },
+                                
+                                    
+                                    id_usuario: {
+                                        validators: {
+                                            notEmpty: {
+                                                message: 'Debe elegir un usuario'
+                                            },
+                                            integer: {
+                                                message: 'El identificador de usuario debe ser un entero'
+                                            }
+                                        }
+                                    },                                    
+                            
+                        
                     }
                 })
-                
-                .on('change', '[name="id_usuario"]', function() {
+
+
+                .on('change', '[name="id_usuario"]', function () {
                     $('#profesorForm').bootstrapValidator('revalidateField', 'id_usuario');
                 });
-                
-                
-    });       
 
-    
+                
+    });
+
     
 </script>
      

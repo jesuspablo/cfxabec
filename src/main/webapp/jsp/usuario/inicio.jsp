@@ -86,18 +86,18 @@
                                 <div class="col-md-4 news-item">
                                     <h2 class="title"><a href="news-single.html">Id temores térmicas</a></h2>
                                     <img class="thumb" src="./images/images_principal/news-thumb-1.jpg"  alt="" />
-                                    <p>Suspendisse purus felis, porttitor quis sollicitudin sit amet, elementum et tortor. Praesent lacinia magna in malesuada vestibulum. Pellentesque urna libero.</p>
+                                    <p>Jugar muestra es muy divertido. Y escribir música es muy divertido. Pero ir de gira durante un año es una de las experiencias más alma-aplastamiento que puede tener como una persona creativa.</p>
                                     <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>                
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
                                     <h2 class="title"><a href="news-single.html">Nutrición en la entrada de la escuela</a></h2>
-                                    <p>Nam feugiat erat vel neque mollis, non vulputate erat aliquet. Maecenas ac leo porttitor, semper risus condimentum, cursus elit. Vivamus vitae libero tellus.</p>
+                                    <p> Una gran parte de mi vida gira en torno a mi padre. A veces, hasta me siento un fuerte sentido de conexión, algo muy tangible cuando aprendo algo nuevo en las artes marciales.</p>
                                     <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>
                                     <img class="thumb" src="./images/images_principal/news-thumb-2.jpg"  alt="" />
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
                                     <h2 class="title"><a href="news-single.html">La última se dirige olla</a></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum mauris eget sapien consectetur pellentesque. Proin elementum tristique euismod. </p>
+                                    <p>Estar de gira es como estar en el limbo. Es como ir de ninguna parte a ninguna parte. </p>
                                     <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>
                                     <img class="thumb" src="./images/images_principal/news-thumb-3.jpg"  alt="" />
                                 </div><!--//news-item-->
@@ -106,7 +106,7 @@
                                 <div class="col-md-4 news-item">
                                     <h2 class="title"><a href="news-single.html">Id temores térmicas</a></h2>
                                     <img class="thumb" src="./images/images_principal/news-thumb-4.jpg"  alt="" />
-                                    <p>Suspendisse purus felis, porttitor quis sollicitudin sit amet, elementum et tortor. Praesent lacinia magna in malesuada vestibulum. Pellentesque urna libero.</p>
+                                    <p>Jugar muestra es muy divertido. Y escribir música es muy divertido. Pero ir de gira durante un año es una de las experiencias más alma-aplastamiento que puede tener como una persona creativa.</p>
                                     <a class="read-more" href="news-single.html">Leer Más<i class="fa fa-chevron-right"></i></a>                
                                 </div><!--//news-item-->
                                 <div class="col-md-4 news-item">
@@ -244,7 +244,7 @@
                         </div><!--//section-content-->
                     </section><!--//links-->
                     <section class="testimonials">
-                        <h1 class="section-heading text-highlight"><span class="line"> Testimonials</span></h1>
+                        <h1 class="section-heading text-highlight"><span class="line"> Testimonios</span></h1>
                         <div class="carousel-controls">
                             <a class="prev" href="#testimonials-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
                             <a class="next" href="#testimonials-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>

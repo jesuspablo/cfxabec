@@ -29,10 +29,11 @@
             <input type="text" id="id" class="form-control"  name="id" placeholder="id" />
         </div>
     </div>
+    
     <div class="form-group">
         <label class="col-sm-2 control-label"  for="dia">Dia:</label>
         <div class="col-sm-6">
-            <input type="text" id="dia" class="form-control"  name="dia" size="15" placeholder="Título del dia" />
+            <input type="text" id="dia" class="form-control"  name="dia" size="15" placeholder="Introduce el dia" />
         </div>
     </div>
 
@@ -47,6 +48,7 @@
             </div>
         </div>
     </div>
+   
 
     <div class="form-group">
         <label class="col-sm-2 control-label" for="horafin">Hora fin:</label> 
@@ -89,70 +91,72 @@
 <script type="text/javascript">
 
     $(document).ready(function() {
-                                //http://jqueryvalidation.org/documentation/
-                            $('#horarioForm')
-                        .bootstrapValidator({
-                            container: '#messages',
-                                feedbackIcons: {
-                                    valid: 'glyphicon glyphicon-ok',
+        $('#horainicio').datetimepicker({
+            pickTime: false,
+            language: 'es',
+            showToday: true
+        });
+        $('#horafin').datetimepicker({
+            pickTime: false,
+            language: 'es',
+            showToday: true
+        });
+                    
+        //http://jqueryvalidation.org/documentation/
+        
+         $('#alumnoForm')
+                .bootstrapValidator({
+                    container: '#messages',
+                    feedbackIcons: {
+                        valid: 'glyphicon glyphicon-ok',
                         invalid: 'glyphicon glyphicon-remove',
-                                validating: 'glyphicon glyphicon-refresh'
-                                    },
+                        validating: 'glyphicon glyphicon-refresh'
+                    },
                     fields: {
                         dia: {
-                               validators: {
-                            notEmpty: {
-                                message: 'Debe introducir un dia'
+                            validators: {
+                                notEmpty: {
+                                    message: 'Debe introducir un dia de alta'
                                 },
-                            stringLength: {
+                                stringLength: {
                                     max: 255,
-                                message: 'El dia debe tener como máximo 255 caracteres'
-                        }
-                      }
-                },
-                 horainicio: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Debe introducir una fecha de nacimiento'
-                                },
-                                date: {
-                                    format: 'DD/MM/YYYY',
-                                    message: 'La fecha de nacimiento no tiene formato DD/MM/YYYY'
+                                    message: 'El dia debe tener como máximo 255 caracteres'
                                 }
                             }
                         },
-                
-                 horafin: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Debe introducir una fecha de nacimiento'
-                                },
-                                date: {
-                                    format: 'DD/MM/YYYY',
-                                    message: 'La fecha de nacimiento no tiene formato DD/MM/YYYY'
-                                }
-                            }
-                        },
-                
-                    id_asignatura: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Debe elegir un asignatura'
-                                },
-                                integer: {
-                                    message: 'El identificador de asignatura debe ser un entero'
-                                }
-                            }
-                        },
-                       
+                             
+                                    
+                         id_asignatura: {
+                                validators: {
+                                      notEmpty: {
+                                                message: 'Debe elegir la asignatura del alumno'
+                                            },
+                                            integer: {
+                                                message: 'El identificador debe ser un entero'
+                                            }
+                                        }
+                                    },
+                                
+                            
+                        
                     }
-                } 
-            } 
-          })
+                })
+               
              
                 .on('change', '[name="id_asignatura"]', function() {
                     $('#diaForm').bootstrapValidator('revalidateField', 'id_asignatura');
-                })
+                });
+                
+                
+                     $('#horainicio').on('dp.change dp.show', function(e) {
+                // Revalidate the date when user change it
+                    $('#horarioForm').bootstrapValidator('revalidateField', 'horainicio');
+                    });
+        
+                     $('#horafin').on('dp.change dp.show', function(e) {
+                // Revalidate the date when user change it
+                    $('#horarioForm').bootstrapValidator('revalidateField', 'horafin');
+                    });
 
                 
     });       
